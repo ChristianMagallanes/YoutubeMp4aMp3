@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+header h1{
+    font-size: 80px;
+}
+
+.Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.Contenedor{
+    background-color: #847770;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Convertidor{
+    width: 800px;
+    height: 50px;
+}
+.btn{
+    height: 50px;
+    width: 400px;
+}
+
+.Btndownload{
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 5px;
+    
+    background-color: #bd937d;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.btn{
+    cursor: pointer;
+}
+.BtnHome{
+    text-decoration: none;
+    
+    font-size: 34px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #000;
+    background-color: #bd937d;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.BtnHome:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.Btndownload:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.bucle{
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
