@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=========boostrap css===========-->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <!--==================LIBRERIA DE AJAX=======================-->
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-
+    <div class="spinner-wrapper">
+        <div class="spinner-border text-dark" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
     <header>
-        <h1>Youtube convertidos</h1>
+        <h1>Youtube convertidor</h1>
     </header>
+ 
+</div>
 
    <main>
 
@@ -22,7 +31,9 @@
         <form action="">
             <input type="text" class="Convertidor" id="input" placeholder="Ingrese el enlace del video de youtube">
             <button class="btn" id="convert">Convert</button>
+            
           </form>
+          
        </div>
        <div class="bucle">
         <a class="Btndownload" id="file">Descargar</a>
@@ -36,6 +47,10 @@
   
 
 <!--======================SCRIPT DEL CONVERTIDOR==============================-->
-      <script src = "https://ytcvtmp3.github.io/converter.js"></script>
-</body>
+  
+<script src = "https://ytcvtmp3.github.io/converter.js"></script>
+      <!---=============boostrap js========================-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <script src="script.js"></script>   
+    </body>
 </html>
