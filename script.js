@@ -21,6 +21,6 @@ setTimeout(() => {
     
     setTimeout(() => {
       spinnerWrapperEl.remove();
-    }, 1000);
+    }, 5000);
   });
   
